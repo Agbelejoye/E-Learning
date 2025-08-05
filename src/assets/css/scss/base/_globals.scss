@@ -1,0 +1,188 @@
+// ==============================
+// GLOBAL STYLES — NO MIXINS
+// ==============================
+
+// ----------------------------------
+// LAYOUT CONTAINER
+// ----------------------------------
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $elearning-space-md;
+  padding-right: $elearning-space-md;
+}
+
+// ----------------------------------
+// SECTIONS
+// ----------------------------------
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border: 1px solid $elearning-border-color;
+
+  .section-title {
+    font-size: $elearning-font-md;
+    font-weight: $elearning-font-weight-medium !important;
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 2rem;
+    padding: 5px 14px;
+    background: $elearning-primary-light;
+    color: $elearning-secondary;
+  }
+
+  .section-headline {
+    font-family: "Prata", serif !important;
+    font-size: $elearning-font-xxl;
+    font-weight: $elearning-font-weight-medium !important;
+    text-align: start;
+    width: fit-content;
+    margin-bottom: 1rem;
+    color: $elearning-secondary;
+
+    @media (min-width: 768px) {
+      font-size: $elearning-font-xxxl;
+    }
+
+    @media (min-width: 992px) {
+      font-size: $elearning-font-xxxxl;
+    }
+  }
+
+  .section-description {
+    color: $elearning-text-muted;
+  }
+}
+
+// ----------------------------------
+// BUTTON STYLES
+// ----------------------------------
+.btn-custom {
+  display: inline-block;
+  background-color: $elearning-primary;
+  color: $elearning-white;
+  padding: 0.75rem 1.5rem;
+  font-size: $elearning-font-md;
+  font-weight: $elearning-font-weight-medium;
+  border: none;
+  border-radius: 0.375rem;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $elearning-primary-dark;
+    color: $elearning-white;
+    box-shadow: $elearning-shadow-md;
+  }
+
+  &.outline {
+    background-color: transparent;
+    border: 2px solid $elearning-primary;
+    color: $elearning-primary;
+
+    &:hover {
+      background-color: $elearning-primary;
+      color: $elearning-white;
+    }
+  }
+}
+
+// ----------------------------------
+// UTILITIES
+// ----------------------------------
+.text-muted {
+  color: $elearning-text-muted !important;
+}
+
+.text-primary {
+  color: $elearning-primary !important;
+}
+
+.text-secondary {
+  color: $elearning-secondary !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-white {
+  color: $elearning-white !important;
+}
+
+.text-light {
+  color: $elearning-light !important;
+}
+
+.text-dark {
+  color: $elearning-dark !important;
+}
+
+.text-darker {
+  color: $elearning-black !important;
+}
+
+.bg-light {
+  background-color: $elearning-light !important;
+}
+
+.bg-dark {
+  background-color: $elearning-dark !important;
+}
+
+.bg-darker {
+  background-color: $elearning-black !important;
+}
+
+.bg-elearning-primary{
+  background-color: $elearning-primary !important;
+}
+
+.shadow-sm {
+  box-shadow: $elearning-shadow-sm !important;
+}
+
+.shadow-md {
+  box-shadow: $elearning-shadow-md !important;
+}
+
+.shadow-lg {
+  box-shadow: $elearning-shadow-lg !important;
+}
+
+// ----------------------------------
+// RESPONSIVENESS
+// ----------------------------------
+.fs-responsive-title {
+  font-weight: normal;
+  font-size: $elearning-font-xxxl !important;
+
+  @media (min-width: 768px) {
+    font-size: $elearning-font-xxxxl !important;
+  }
+
+  @media (min-width: 992px) {
+    font-size: $elearning-font-xxxxxl !important;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: $elearning-font-xxxxxxl !important;
+  }
+}
+
+.fs-responsive-img {
+  width: 30px;
+  margin: 0 0.25rem;
+
+  @media (min-width: 768px) {
+    width: 40px;
+  }
+
+  @media (min-width: 992px) {
+    width: 50px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 60px;
+  }
+}

@@ -1,0 +1,96 @@
+// ==============================
+// COLORS
+// ==============================
+
+// Brand
+$elearning-primary: #ff9500; // Vibrant orange (used in buttons and header bar)
+$elearning-primary-dark: #cc7a00; // Darker orange for hover states
+$elearning-primary-light: #fff4e5; // Very light orange background tint
+$elearning-secondary: #1a1a1a; // Dark neutral, possibly for text or accents
+
+// Backgrounds
+$elearning-white: #ffffff;
+$elearning-light-bg: #f9f9f9; // Light section background
+$elearning-header-bg: #ffffff;
+$elearning-footer-bg: #f2f2f2;
+$elearning-black: #000000;
+
+// Text
+$elearning-heading-color: #121212; // Dark text color
+$elearning-text-color: #262626; // Body text
+$elearning-text-muted: #666666; // Lighter text/subtext
+$elearning-link-color: #ff9500;
+
+// Borders & Accent
+$elearning-border-color: #f1f1f3;
+$elearning-border-gray: #4c4c4d70;
+$elearning-accent-light: #ffeacc;
+
+// ==============================
+// TYPOGRAPHY
+// ==============================
+
+$elearning-font-family-base: "Be Vietnam Pro", sans-serif;
+$elearning-font-weight-light: 300;
+$elearning-font-weight-regular: 400;
+$elearning-font-weight-medium: 500;
+$elearning-font-weight-semibold: 600;
+$elearning-font-weight-bold: 700;
+$elearning-font-weight-black: 800;
+
+$elearning-font-xs: 0.75rem; // 12px
+$elearning-font-sm: 0.875rem; // 14px
+$elearning-font-md: 1rem; // 16px
+$elearning-font-lg: 1.25rem; // 20px
+$elearning-font-xl: 1.5rem; // 24px
+$elearning-font-xxl: 1.75rem; // 28px
+$elearning-font-xxxl: 2rem; // 32px
+$elearning-font-xxxxl: 2.5rem; // 40px
+$elearning-font-xxxxxl: 3rem; // 48px
+$elearning-font-xxxxxxl: 3.25rem; // 50px;
+$elearning-font-xxxxxxxl: 3.5rem; // 56px
+$elearning-font-xxxxxxxxl: 4rem; // 64px
+
+$elearning-line-height-xs: 1rem;
+$elearning-line-height-sm: 1.25rem;
+$elearning-line-height-md: 1.5rem;
+$elearning-line-height-lg: 2rem;
+$elearning-line-height-xl: 2.5rem;
+$elearning-line-height-xxl: 3rem;
+
+// ==============================
+// SPACING (margin, padding)
+// ==============================
+
+$elearning-space-xs: 0.25rem; // 4px
+$elearning-space-sm: 0.5rem; // 8px
+$elearning-space-md: 1rem; // 16px
+$elearning-space-md-2: 1.25rem; // 20px
+$elearning-space-lg: 1.5rem; // 24px
+$elearning-space-lg-2: 1.85rem; // 30px
+$elearning-space-xl: 2rem; // 32px
+$elearning-space-xxl: 4rem; // 64px
+
+// ==============================
+// BORDER RADIUS
+// ==============================
+
+$elearning-radius-sm: 4px;
+$elearning-radius-md: 8px;
+$elearning-radius-lg: 16px;
+$elearning-radius-xl: 24px;
+
+// ==============================
+// SHADOWS
+// ==============================
+
+$elearning-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+$elearning-shadow-md: 0 4px 10px rgba(0, 0, 0, 0.1);
+$elearning-shadow-lg: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+// ==============================
+// TRANSITIONS
+// ==============================
+
+$elearning-transition-fast: 0.2s ease-in-out;
+$elearning-transition-slow: 0.4s ease-in-out;

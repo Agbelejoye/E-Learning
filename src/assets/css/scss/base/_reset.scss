@@ -1,0 +1,77 @@
+/* RESET + NORMALIZE COMBINED */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none !important;
+  font-size: $elearning-font-sm;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%; // 16px base
+}
+
+body {
+  font-family: $elearning-font-family-base;
+  font-size: $elearning-font-sm;
+  color: $elearning-text-color;
+  background-color: $elearning-light-bg;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: $elearning-transition-fast;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $elearning-border-color;
+  margin: $elearning-space-md 0;
+}

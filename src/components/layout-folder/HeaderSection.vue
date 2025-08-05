@@ -1,5 +1,6 @@
 <template>
-  <header class="container">
+  <announcement></announcement>
+  <header class="container-fluid p-0">
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -46,7 +47,7 @@
 </template>
 
 <script setup>
-
+ import Announcement from './Announcement.vue';
 </script>
 
 <style scoped>

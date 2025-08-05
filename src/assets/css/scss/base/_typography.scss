@@ -1,0 +1,70 @@
+// ==============================
+// TYPOGRAPHY BASE STYLES
+// ==============================
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+  font-weight: $elearning-font-weight-bold;
+  color: $elearning-heading-color;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: $elearning-font-xxl;
+}
+h2 {
+  font-size: $elearning-font-xl;
+}
+h3 {
+  font-size: $elearning-font-lg;
+}
+h4 {
+  font-size: 1.125rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.875rem;
+}
+
+// Paragraphs
+p {
+  margin-bottom: 1rem;
+  font-size: $elearning-font-sm;
+  color: $elearning-text-color;
+}
+
+// Links
+a {
+  color: $elearning-secondary !important;
+  text-decoration: none !important;
+  transition: $elearning-transition-fast !important;
+
+  &:hover {
+    color: $elearning-primary-dark !important;
+  }
+}
+
+// Navigation Links
+.nav-link {
+  color: $elearning-white !important;
+  text-decoration: none !important;
+  transition: $elearning-transition-fast !important;
+  font-weight: $elearning-font-weight-bold !important;
+  padding: $elearning-space-md $elearning-space-lg !important;
+
+  &:hover {
+    color: $elearning-primary-dark !important;
+  }
+
+  &.active {
+    color: $elearning-primary !important;
+  }
+}
